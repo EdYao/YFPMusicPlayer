@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57F79C901E498BDC00B25F96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F79C8F1E498BDC00B25F96 /* AppDelegate.swift */; };
+		57F79C921E498BDC00B25F96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F79C911E498BDC00B25F96 /* ViewController.swift */; };
+		57F79C951E498BDC00B25F96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57F79C931E498BDC00B25F96 /* Main.storyboard */; };
+		57F79C971E498BDC00B25F96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F79C961E498BDC00B25F96 /* Assets.xcassets */; };
+		57F79C9A1E498BDC00B25F96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57F79C981E498BDC00B25F96 /* LaunchScreen.storyboard */; };
+		57F79CA51E498BDC00B25F96 /* YFPMusicPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F79CA41E498BDC00B25F96 /* YFPMusicPlayerTests.swift */; };
+		57F79CB01E498BDC00B25F96 /* YFPMusicPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F79CAF1E498BDC00B25F96 /* YFPMusicPlayerUITests.swift */; };
+		57F79D321E49904600B25F96 /* DescriptionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F79D0F1E49904600B25F96 /* DescriptionListView.swift */; };
+		57F79D331E49904600B25F96 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F79D101E49904600B25F96 /* ListViewController.swift */; };
+		57F79D341E49904600B25F96 /* 一千个世纪-五月天.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57F79D121E49904600B25F96 /* 一千个世纪-五月天.mp3 */; };
+		57F79D351E49904600B25F96 /* 我终于失去了你 (Live)-李宗盛.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57F79D131E49904600B25F96 /* 我终于失去了你 (Live)-李宗盛.mp3 */; };
+		57F79D361E49904600B25F96 /* 真心英雄 (Live)-李宗盛.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57F79D141E49904600B25F96 /* 真心英雄 (Live)-李宗盛.mp3 */; };
+		57F79D371E49904600B25F96 /* CalcBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F79D171E49904600B25F96 /* CalcBrain.m */; };
+		57F79D3A1E49904600B25F96 /* PlayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F79D1B1E49904600B25F96 /* PlayModel.swift */; };
+		57F79D3B1E49904600B25F96 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F79D1C1E49904600B25F96 /* PlayViewController.swift */; };
+		57F79D3C1E49904600B25F96 /* PlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57F79D1D1E49904600B25F96 /* PlayViewController.xib */; };
+		57F79D3D1E49904600B25F96 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F79D1F1E49904600B25F96 /* BaseViewController.swift */; };
+		57F79D3E1E49904600B25F96 /* constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F79D211E49904600B25F96 /* constants.m */; };
+		57F79D3F1E49904600B25F96 /* MCAudioBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F79D241E49904600B25F96 /* MCAudioBuffer.m */; };
+		57F79D401E49904600B25F96 /* MCAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F79D261E49904600B25F96 /* MCAudioFile.m */; };
+		57F79D411E49904600B25F96 /* MCAudioFileStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F79D281E49904600B25F96 /* MCAudioFileStream.m */; };
+		57F79D421E49904600B25F96 /* MCAudioOutputQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F79D2A1E49904600B25F96 /* MCAudioOutputQueue.m */; };
+		57F79D431E49904600B25F96 /* MCAudioSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F79D2C1E49904600B25F96 /* MCAudioSession.m */; };
+		57F79D441E49904600B25F96 /* MCParsedAudioData.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F79D2E1E49904600B25F96 /* MCParsedAudioData.m */; };
+		57F79D451E49904600B25F96 /* MCSimpleAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F79D301E49904600B25F96 /* MCSimpleAudioPlayer.m */; };
+		57F79D461E49904600B25F96 /* songInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F79D311E49904600B25F96 /* songInfo.swift */; };
+		84564E6A1FB97F600022D255 /* YFPAVPlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84564E691FB97F600022D255 /* YFPAVPlayManager.m */; };
+		A83AE7395DA35C00230343B6 /* libPods-YFPMusicPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1BAF24CDEC31D5A7E4988F /* libPods-YFPMusicPlayer.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57F79CA11E498BDC00B25F96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57F79C841E498BDB00B25F96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57F79C8B1E498BDB00B25F96;
+			remoteInfo = YFPMusicPlayer;
+		};
+		57F79CAC1E498BDC00B25F96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57F79C841E498BDB00B25F96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57F79C8B1E498BDB00B25F96;
+			remoteInfo = YFPMusicPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44C9D98DFB8D02F20391D40D /* Pods-YFPMusicPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFPMusicPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YFPMusicPlayer/Pods-YFPMusicPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		57F79C8C1E498BDC00B25F96 /* YFPMusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YFPMusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F79C8F1E498BDC00B25F96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57F79C911E498BDC00B25F96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57F79C941E498BDC00B25F96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57F79C961E498BDC00B25F96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57F79C991E498BDC00B25F96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57F79C9B1E498BDC00B25F96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57F79CA01E498BDC00B25F96 /* YFPMusicPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YFPMusicPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F79CA41E498BDC00B25F96 /* YFPMusicPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFPMusicPlayerTests.swift; sourceTree = "<group>"; };
+		57F79CA61E498BDC00B25F96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57F79CAB1E498BDC00B25F96 /* YFPMusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YFPMusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F79CAF1E498BDC00B25F96 /* YFPMusicPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFPMusicPlayerUITests.swift; sourceTree = "<group>"; };
+		57F79CB11E498BDC00B25F96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57F79D081E498FD100B25F96 /* YFPMusicPlayer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YFPMusicPlayer-Bridging-Header.h"; sourceTree = "<group>"; };
+		57F79D0F1E49904600B25F96 /* DescriptionListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionListView.swift; sourceTree = "<group>"; };
+		57F79D101E49904600B25F96 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		57F79D121E49904600B25F96 /* 一千个世纪-五月天.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "一千个世纪-五月天.mp3"; sourceTree = "<group>"; };
+		57F79D131E49904600B25F96 /* 我终于失去了你 (Live)-李宗盛.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "我终于失去了你 (Live)-李宗盛.mp3"; sourceTree = "<group>"; };
+		57F79D141E49904600B25F96 /* 真心英雄 (Live)-李宗盛.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "真心英雄 (Live)-李宗盛.mp3"; sourceTree = "<group>"; };
+		57F79D161E49904600B25F96 /* CalcBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcBrain.h; sourceTree = "<group>"; };
+		57F79D171E49904600B25F96 /* CalcBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcBrain.m; sourceTree = "<group>"; };
+		57F79D1B1E49904600B25F96 /* PlayModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayModel.swift; sourceTree = "<group>"; };
+		57F79D1C1E49904600B25F96 /* PlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		57F79D1D1E49904600B25F96 /* PlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayViewController.xib; sourceTree = "<group>"; };
+		57F79D1F1E49904600B25F96 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		57F79D201E49904600B25F96 /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+		57F79D211E49904600B25F96 /* constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = constants.m; sourceTree = "<group>"; };
+		57F79D231E49904600B25F96 /* MCAudioBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAudioBuffer.h; sourceTree = "<group>"; };
+		57F79D241E49904600B25F96 /* MCAudioBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCAudioBuffer.m; sourceTree = "<group>"; };
+		57F79D251E49904600B25F96 /* MCAudioFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAudioFile.h; sourceTree = "<group>"; };
+		57F79D261E49904600B25F96 /* MCAudioFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCAudioFile.m; sourceTree = "<group>"; };
+		57F79D271E49904600B25F96 /* MCAudioFileStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAudioFileStream.h; sourceTree = "<group>"; };
+		57F79D281E49904600B25F96 /* MCAudioFileStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCAudioFileStream.m; sourceTree = "<group>"; };
+		57F79D291E49904600B25F96 /* MCAudioOutputQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAudioOutputQueue.h; sourceTree = "<group>"; };
+		57F79D2A1E49904600B25F96 /* MCAudioOutputQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCAudioOutputQueue.m; sourceTree = "<group>"; };
+		57F79D2B1E49904600B25F96 /* MCAudioSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAudioSession.h; sourceTree = "<group>"; };
+		57F79D2C1E49904600B25F96 /* MCAudioSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCAudioSession.m; sourceTree = "<group>"; };
+		57F79D2D1E49904600B25F96 /* MCParsedAudioData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCParsedAudioData.h; sourceTree = "<group>"; };
+		57F79D2E1E49904600B25F96 /* MCParsedAudioData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCParsedAudioData.m; sourceTree = "<group>"; };
+		57F79D2F1E49904600B25F96 /* MCSimpleAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSimpleAudioPlayer.h; sourceTree = "<group>"; };
+		57F79D301E49904600B25F96 /* MCSimpleAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSimpleAudioPlayer.m; sourceTree = "<group>"; };
+		57F79D311E49904600B25F96 /* songInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = songInfo.swift; sourceTree = "<group>"; };
+		84564E681FB97F600022D255 /* YFPAVPlayManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFPAVPlayManager.h; sourceTree = "<group>"; };
+		84564E691FB97F600022D255 /* YFPAVPlayManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFPAVPlayManager.m; sourceTree = "<group>"; };
+		9A1BAF24CDEC31D5A7E4988F /* libPods-YFPMusicPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YFPMusicPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9084FCDD59464BF6124B4F4 /* Pods-YFPMusicPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFPMusicPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-YFPMusicPlayer/Pods-YFPMusicPlayer.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57F79C891E498BDB00B25F96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83AE7395DA35C00230343B6 /* libPods-YFPMusicPlayer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F79C9D1E498BDC00B25F96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F79CA81E498BDC00B25F96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57F79C831E498BDB00B25F96 = {
+			isa = PBXGroup;
+			children = (
+				57F79C8E1E498BDC00B25F96 /* YFPMusicPlayer */,
+				57F79CA31E498BDC00B25F96 /* YFPMusicPlayerTests */,
+				57F79CAE1E498BDC00B25F96 /* YFPMusicPlayerUITests */,
+				57F79C8D1E498BDC00B25F96 /* Products */,
+				C4C1ADF62D3036B43E848EBB /* Pods */,
+				D044EC874263BFDB0C7089C3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57F79C8D1E498BDC00B25F96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57F79C8C1E498BDC00B25F96 /* YFPMusicPlayer.app */,
+				57F79CA01E498BDC00B25F96 /* YFPMusicPlayerTests.xctest */,
+				57F79CAB1E498BDC00B25F96 /* YFPMusicPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57F79C8E1E498BDC00B25F96 /* YFPMusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				84564E671FB97EF30022D255 /* YFPAVPlayer */,
+				57F79D0E1E49904600B25F96 /* List */,
+				57F79D111E49904600B25F96 /* music */,
+				57F79D151E49904600B25F96 /* Play */,
+				57F79D1E1E49904600B25F96 /* Public */,
+				57F79CBD1E498DD200B25F96 /* Base */,
+			);
+			path = YFPMusicPlayer;
+			sourceTree = "<group>";
+		};
+		57F79CA31E498BDC00B25F96 /* YFPMusicPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				57F79CA41E498BDC00B25F96 /* YFPMusicPlayerTests.swift */,
+				57F79CA61E498BDC00B25F96 /* Info.plist */,
+			);
+			path = YFPMusicPlayerTests;
+			sourceTree = "<group>";
+		};
+		57F79CAE1E498BDC00B25F96 /* YFPMusicPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57F79CAF1E498BDC00B25F96 /* YFPMusicPlayerUITests.swift */,
+				57F79CB11E498BDC00B25F96 /* Info.plist */,
+			);
+			path = YFPMusicPlayerUITests;
+			sourceTree = "<group>";
+		};
+		57F79CBD1E498DD200B25F96 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				57F79C8F1E498BDC00B25F96 /* AppDelegate.swift */,
+				57F79C911E498BDC00B25F96 /* ViewController.swift */,
+				57F79C931E498BDC00B25F96 /* Main.storyboard */,
+				57F79C961E498BDC00B25F96 /* Assets.xcassets */,
+				57F79C981E498BDC00B25F96 /* LaunchScreen.storyboard */,
+				57F79C9B1E498BDC00B25F96 /* Info.plist */,
+				57F79D081E498FD100B25F96 /* YFPMusicPlayer-Bridging-Header.h */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		57F79D0E1E49904600B25F96 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				57F79D0F1E49904600B25F96 /* DescriptionListView.swift */,
+				57F79D101E49904600B25F96 /* ListViewController.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		57F79D111E49904600B25F96 /* music */ = {
+			isa = PBXGroup;
+			children = (
+				57F79D121E49904600B25F96 /* 一千个世纪-五月天.mp3 */,
+				57F79D131E49904600B25F96 /* 我终于失去了你 (Live)-李宗盛.mp3 */,
+				57F79D141E49904600B25F96 /* 真心英雄 (Live)-李宗盛.mp3 */,
+			);
+			path = music;
+			sourceTree = "<group>";
+		};
+		57F79D151E49904600B25F96 /* Play */ = {
+			isa = PBXGroup;
+			children = (
+				57F79D161E49904600B25F96 /* CalcBrain.h */,
+				57F79D171E49904600B25F96 /* CalcBrain.m */,
+				57F79D1B1E49904600B25F96 /* PlayModel.swift */,
+				57F79D1C1E49904600B25F96 /* PlayViewController.swift */,
+				57F79D1D1E49904600B25F96 /* PlayViewController.xib */,
+			);
+			path = Play;
+			sourceTree = "<group>";
+		};
+		57F79D1E1E49904600B25F96 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				57F79D1F1E49904600B25F96 /* BaseViewController.swift */,
+				57F79D201E49904600B25F96 /* constants.h */,
+				57F79D211E49904600B25F96 /* constants.m */,
+				57F79D221E49904600B25F96 /* MCSimpleAudioPlayer */,
+				57F79D311E49904600B25F96 /* songInfo.swift */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		57F79D221E49904600B25F96 /* MCSimpleAudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				57F79D231E49904600B25F96 /* MCAudioBuffer.h */,
+				57F79D241E49904600B25F96 /* MCAudioBuffer.m */,
+				57F79D251E49904600B25F96 /* MCAudioFile.h */,
+				57F79D261E49904600B25F96 /* MCAudioFile.m */,
+				57F79D271E49904600B25F96 /* MCAudioFileStream.h */,
+				57F79D281E49904600B25F96 /* MCAudioFileStream.m */,
+				57F79D291E49904600B25F96 /* MCAudioOutputQueue.h */,
+				57F79D2A1E49904600B25F96 /* MCAudioOutputQueue.m */,
+				57F79D2B1E49904600B25F96 /* MCAudioSession.h */,
+				57F79D2C1E49904600B25F96 /* MCAudioSession.m */,
+				57F79D2D1E49904600B25F96 /* MCParsedAudioData.h */,
+				57F79D2E1E49904600B25F96 /* MCParsedAudioData.m */,
+				57F79D2F1E49904600B25F96 /* MCSimpleAudioPlayer.h */,
+				57F79D301E49904600B25F96 /* MCSimpleAudioPlayer.m */,
+			);
+			path = MCSimpleAudioPlayer;
+			sourceTree = "<group>";
+		};
+		84564E671FB97EF30022D255 /* YFPAVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				84564E681FB97F600022D255 /* YFPAVPlayManager.h */,
+				84564E691FB97F600022D255 /* YFPAVPlayManager.m */,
+			);
+			path = YFPAVPlayer;
+			sourceTree = "<group>";
+		};
+		C4C1ADF62D3036B43E848EBB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44C9D98DFB8D02F20391D40D /* Pods-YFPMusicPlayer.debug.xcconfig */,
+				C9084FCDD59464BF6124B4F4 /* Pods-YFPMusicPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D044EC874263BFDB0C7089C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A1BAF24CDEC31D5A7E4988F /* libPods-YFPMusicPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57F79C8B1E498BDB00B25F96 /* YFPMusicPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57F79CB41E498BDC00B25F96 /* Build configuration list for PBXNativeTarget "YFPMusicPlayer" */;
+			buildPhases = (
+				7236B17AE708853A5F94E695 /* [CP] Check Pods Manifest.lock */,
+				57F79C881E498BDB00B25F96 /* Sources */,
+				57F79C891E498BDB00B25F96 /* Frameworks */,
+				57F79C8A1E498BDB00B25F96 /* Resources */,
+				BB16BDEA23ABBDE47428D7A7 /* [CP] Embed Pods Frameworks */,
+				859FF817D413D401A4B41C0E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YFPMusicPlayer;
+			productName = YFPMusicPlayer;
+			productReference = 57F79C8C1E498BDC00B25F96 /* YFPMusicPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57F79C9F1E498BDC00B25F96 /* YFPMusicPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57F79CB71E498BDC00B25F96 /* Build configuration list for PBXNativeTarget "YFPMusicPlayerTests" */;
+			buildPhases = (
+				57F79C9C1E498BDC00B25F96 /* Sources */,
+				57F79C9D1E498BDC00B25F96 /* Frameworks */,
+				57F79C9E1E498BDC00B25F96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57F79CA21E498BDC00B25F96 /* PBXTargetDependency */,
+			);
+			name = YFPMusicPlayerTests;
+			productName = YFPMusicPlayerTests;
+			productReference = 57F79CA01E498BDC00B25F96 /* YFPMusicPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57F79CAA1E498BDC00B25F96 /* YFPMusicPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57F79CBA1E498BDC00B25F96 /* Build configuration list for PBXNativeTarget "YFPMusicPlayerUITests" */;
+			buildPhases = (
+				57F79CA71E498BDC00B25F96 /* Sources */,
+				57F79CA81E498BDC00B25F96 /* Frameworks */,
+				57F79CA91E498BDC00B25F96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57F79CAD1E498BDC00B25F96 /* PBXTargetDependency */,
+			);
+			name = YFPMusicPlayerUITests;
+			productName = YFPMusicPlayerUITests;
+			productReference = 57F79CAB1E498BDC00B25F96 /* YFPMusicPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57F79C841E498BDB00B25F96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Charles Yao";
+				TargetAttributes = {
+					57F79C8B1E498BDB00B25F96 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NK5HCY3KY2;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					57F79C9F1E498BDC00B25F96 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ML674CKRN7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 57F79C8B1E498BDB00B25F96;
+					};
+					57F79CAA1E498BDC00B25F96 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ML674CKRN7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 57F79C8B1E498BDB00B25F96;
+					};
+				};
+			};
+			buildConfigurationList = 57F79C871E498BDB00B25F96 /* Build configuration list for PBXProject "YFPMusicPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57F79C831E498BDB00B25F96;
+			productRefGroup = 57F79C8D1E498BDC00B25F96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57F79C8B1E498BDB00B25F96 /* YFPMusicPlayer */,
+				57F79C9F1E498BDC00B25F96 /* YFPMusicPlayerTests */,
+				57F79CAA1E498BDC00B25F96 /* YFPMusicPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57F79C8A1E498BDB00B25F96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F79D341E49904600B25F96 /* 一千个世纪-五月天.mp3 in Resources */,
+				57F79D3C1E49904600B25F96 /* PlayViewController.xib in Resources */,
+				57F79D361E49904600B25F96 /* 真心英雄 (Live)-李宗盛.mp3 in Resources */,
+				57F79D351E49904600B25F96 /* 我终于失去了你 (Live)-李宗盛.mp3 in Resources */,
+				57F79C9A1E498BDC00B25F96 /* LaunchScreen.storyboard in Resources */,
+				57F79C971E498BDC00B25F96 /* Assets.xcassets in Resources */,
+				57F79C951E498BDC00B25F96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F79C9E1E498BDC00B25F96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F79CA91E498BDC00B25F96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7236B17AE708853A5F94E695 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		859FF817D413D401A4B41C0E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YFPMusicPlayer/Pods-YFPMusicPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB16BDEA23ABBDE47428D7A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YFPMusicPlayer/Pods-YFPMusicPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57F79C881E498BDB00B25F96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F79D441E49904600B25F96 /* MCParsedAudioData.m in Sources */,
+				57F79D431E49904600B25F96 /* MCAudioSession.m in Sources */,
+				57F79D3B1E49904600B25F96 /* PlayViewController.swift in Sources */,
+				57F79D3F1E49904600B25F96 /* MCAudioBuffer.m in Sources */,
+				57F79D3A1E49904600B25F96 /* PlayModel.swift in Sources */,
+				57F79D461E49904600B25F96 /* songInfo.swift in Sources */,
+				57F79C921E498BDC00B25F96 /* ViewController.swift in Sources */,
+				57F79C901E498BDC00B25F96 /* AppDelegate.swift in Sources */,
+				57F79D3E1E49904600B25F96 /* constants.m in Sources */,
+				84564E6A1FB97F600022D255 /* YFPAVPlayManager.m in Sources */,
+				57F79D3D1E49904600B25F96 /* BaseViewController.swift in Sources */,
+				57F79D401E49904600B25F96 /* MCAudioFile.m in Sources */,
+				57F79D451E49904600B25F96 /* MCSimpleAudioPlayer.m in Sources */,
+				57F79D421E49904600B25F96 /* MCAudioOutputQueue.m in Sources */,
+				57F79D371E49904600B25F96 /* CalcBrain.m in Sources */,
+				57F79D331E49904600B25F96 /* ListViewController.swift in Sources */,
+				57F79D411E49904600B25F96 /* MCAudioFileStream.m in Sources */,
+				57F79D321E49904600B25F96 /* DescriptionListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F79C9C1E498BDC00B25F96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F79CA51E498BDC00B25F96 /* YFPMusicPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F79CA71E498BDC00B25F96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F79CB01E498BDC00B25F96 /* YFPMusicPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57F79CA21E498BDC00B25F96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57F79C8B1E498BDB00B25F96 /* YFPMusicPlayer */;
+			targetProxy = 57F79CA11E498BDC00B25F96 /* PBXContainerItemProxy */;
+		};
+		57F79CAD1E498BDC00B25F96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57F79C8B1E498BDB00B25F96 /* YFPMusicPlayer */;
+			targetProxy = 57F79CAC1E498BDC00B25F96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57F79C931E498BDC00B25F96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57F79C941E498BDC00B25F96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57F79C981E498BDC00B25F96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57F79C991E498BDC00B25F96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57F79CB21E498BDC00B25F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57F79CB31E498BDC00B25F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57F79CB51E498BDC00B25F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44C9D98DFB8D02F20391D40D /* Pods-YFPMusicPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = NK5HCY3KY2;
+				INFOPLIST_FILE = YFPMusicPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Charles.YFPMusicPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YFPMusicPlayer/YFPMusicPlayer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		57F79CB61E498BDC00B25F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9084FCDD59464BF6124B4F4 /* Pods-YFPMusicPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = NK5HCY3KY2;
+				INFOPLIST_FILE = YFPMusicPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Charles.YFPMusicPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YFPMusicPlayer/YFPMusicPlayer-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		57F79CB81E498BDC00B25F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ML674CKRN7;
+				INFOPLIST_FILE = YFPMusicPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Charles.YFPMusicPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YFPMusicPlayer.app/YFPMusicPlayer";
+			};
+			name = Debug;
+		};
+		57F79CB91E498BDC00B25F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ML674CKRN7;
+				INFOPLIST_FILE = YFPMusicPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Charles.YFPMusicPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YFPMusicPlayer.app/YFPMusicPlayer";
+			};
+			name = Release;
+		};
+		57F79CBB1E498BDC00B25F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ML674CKRN7;
+				INFOPLIST_FILE = YFPMusicPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Charles.YFPMusicPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YFPMusicPlayer;
+			};
+			name = Debug;
+		};
+		57F79CBC1E498BDC00B25F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ML674CKRN7;
+				INFOPLIST_FILE = YFPMusicPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Charles.YFPMusicPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YFPMusicPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57F79C871E498BDB00B25F96 /* Build configuration list for PBXProject "YFPMusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F79CB21E498BDC00B25F96 /* Debug */,
+				57F79CB31E498BDC00B25F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57F79CB41E498BDC00B25F96 /* Build configuration list for PBXNativeTarget "YFPMusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F79CB51E498BDC00B25F96 /* Debug */,
+				57F79CB61E498BDC00B25F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57F79CB71E498BDC00B25F96 /* Build configuration list for PBXNativeTarget "YFPMusicPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F79CB81E498BDC00B25F96 /* Debug */,
+				57F79CB91E498BDC00B25F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57F79CBA1E498BDC00B25F96 /* Build configuration list for PBXNativeTarget "YFPMusicPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F79CBB1E498BDC00B25F96 /* Debug */,
+				57F79CBC1E498BDC00B25F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57F79C841E498BDB00B25F96 /* Project object */;
+}
